@@ -1,0 +1,41 @@
+ALGORITHM algorithm_name
+VAR
+    Set1 :  ARRAY_OF INTEGER[5];
+    set2 :  ARRAY_OF INTEGER[5];
+    set3 :  ARRAY_OF INTEGER[5];
+BEGIN
+    set1  := [3, 1, 7, 9, 2 ]
+    set2  := [2, 4, 1, 9, 3] 
+    set3   := []
+    sum  = 0
+    FOR i FROM 1 TO Set1.length STEP 1  DO
+      FOR j FROM 1 TO set2.length STEP 1   DO
+          
+      IF (  set1[i]!=set2[j]) THEN
+            add(set3)
+     sum(set3)
+       
+           END_IF
+       END_FOR
+        
+    END_FOR
+END
+ALGORITHM algorithm_name
+VAR
+    sett1 : ARRAY_OF INTEGER[4];
+    sett2 : ARRAY_OF INTEGER[4];
+    sette3: ARRAY_OF INTEGER[4];
+ BEGIN
+    sett1 :=  [12, 13, 6, 10]
+    sett2 := [13, 10, 16, 15]
+    sett3 := []
+    sum  = 0
+FOR i FROM 1 TO sett1.length step 1 DO
+  FOR j FROM 1 TO sett2.length STEP 2   DO
+      set_instructions
+  END_FOR   IF (sett1[i]==sett2[j]) THEN
+         add (sett3)
+     sum(sett3)
+     END_IF
+END_FOR
+END
